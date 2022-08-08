@@ -8,13 +8,13 @@ export default function App(): JSX.Element {
   return (
     <BrowserRouter>
       <div className="App">
-          <Routes>
-            <Route path="/" element={<LandingPage />} />
-            <Route path="/Career" element={<Career />} />
-            <Route path="/X44" element={<X44 />} />
-          </Routes>
+        <Routes>
+          <Route path="/" element={<LandingPage />} />
+          <Route path="/Career" element={<Career />} />
+          <Route path="/X44" element={<X44 />} />
+        </Routes>
       </div>
-      <Navbar/>
+      <Navbar />
     </BrowserRouter>
   );
 }
