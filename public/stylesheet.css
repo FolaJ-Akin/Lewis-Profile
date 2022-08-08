@@ -33,6 +33,31 @@
     margin: 50px;
     margin-bottom: 1vh;
 }
+.container{
+    border: 5px solid black;
+}
+.leftTrape{
+    /* border: 5px solid orange; */
+    width: 200px;
+    height: 200px;
+    background: orange;
+    transform: skew(1deg,10deg);
+    margin: 50px;
+}
+.middleSqaure{
+    width: 200px;
+    height: 200px;
+    background: orange;
+    /* transform: skew(1deg,10deg); */
+    margin: 50px;
+}
+.rightTrape{
+    width: 200px;
+    height: 200px;
+    background: orange;
+    transform: skew(1deg,-10deg);
+    margin: 50px;
+}
 
 .CareerPage{
     border: 5px solid green;
