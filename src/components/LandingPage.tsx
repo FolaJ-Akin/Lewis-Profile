@@ -1,11 +1,22 @@
 export default function LandingPage(): JSX.Element {
   return (
     <div className="LandingPage">
-      <h1>Lewis Hamiliton</h1>
+      <h1>Sir Lewis Hamiliton</h1>
       <div className="container">
-        <div className="leftTrape">Title wins</div>
-        <div className="middleSqaure">Photo</div>
-        <div className="rightTrape">Races Stats</div>
+        <div className="leftTrape">
+          7 <small>Title wins</small>
+        </div>
+        <div className="middleSqaure"></div>
+        <div className="rightTrape">
+          <br />
+          103 Race Wins
+          <br />
+          <br />
+          103 Pole Positions
+          <br />
+          <br />
+          188 Podium finishes
+        </div>
       </div>
     </div>
   );
