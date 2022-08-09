@@ -1,7 +1,7 @@
 export default function LandingPage(): JSX.Element {
   return (
     <div className="LandingPage">
-      <h1>Sir Lewis Hamiliton</h1>
+      <h1 id="LPh1">Sir Lewis Hamiliton</h1>
       <div className="container">
         <div className="leftTrape">
           7 <small>Title wins</small>
