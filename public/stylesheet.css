@@ -172,6 +172,7 @@ h2 {
     overflow-y: scroll;
     scroll-behavior: smooth;
     padding: 3px;
+    margin-bottom: 10vh;
 }
 
 h3 {
