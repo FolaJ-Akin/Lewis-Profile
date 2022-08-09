@@ -138,7 +138,6 @@ small {
     /* border: 5px solid grey; */
     height: 90%;
     scroll-snap-align: start;
-    overflow: scroll;
 }
 
 .CarouselF1 {
@@ -255,7 +254,13 @@ section {
     .rightTrape {
         /* font-size: 4rem; */
     }
-
+    .CareerCarousel{
+        height:89%;
+    }
+    .X44Page{
+        height:97vh;
+        overflow:scroll;
+    }
 }
 
 /* Extra large devices (large laptops and desktops, 1600px and up) */
