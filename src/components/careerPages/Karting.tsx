@@ -36,6 +36,11 @@ export default function Karting() {
         seventh&apos; four places behind Schumacher. Although the two saw little
         of each other on the track&apos; Schumacher praised the young Briton.
       </section>
+      <img
+        id="Kart"
+        alt="karting picture"
+        src="https://www.telegraph.co.uk/content/dam/cars/2016/08/01/104121214_Lewis-Hamilton-1995-Philip_Brown-REX-Shutterstock_trans_NvBQzQNjv4BqYMx7FHrHOQOZQ0XlSnlOiiMl_I54UcGROlUccmpYrhQ.jpg?imwidth=1280"
+      />
     </div>
   );
 }
