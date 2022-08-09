@@ -261,6 +261,12 @@ section {
         height:97vh;
         overflow:scroll;
     }
+    #LPh1{
+        font-size:4em;
+    }
+    .LandingPage{
+        height:94vh:
+    }
 }
 
 /* Extra large devices (large laptops and desktops, 1600px and up) */
