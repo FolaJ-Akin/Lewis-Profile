@@ -167,7 +167,7 @@ h2 {
 
 .Mercedes {
     border: 5px dashed orange;
-    border-left: none;
+    border-top: none;
     width: 100%;
     overflow-y: scroll;
     scroll-behavior: smooth;
