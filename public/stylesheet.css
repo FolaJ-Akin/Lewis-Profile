@@ -277,3 +277,33 @@ section {
         font-size: 4rem;
     }
 }
+
+
+.f1Standings{
+    /* border: 5px solid red; */
+    justify-items: center;
+    height: 90vh;
+    overflow: scroll;
+}
+.driverTile{
+    border: 5px solid green;
+    background-color: rgb(53, 151, 53,0.4);
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+    height: 5vh;
+    padding-top: 20px;
+    width: 80vw;
+    margin: 7px auto;
+}
+
+h4{
+    /* color: #fff; */
+    margin: 0;
+    padding: 0;
+    font-size: 1.5em;
+}
+
+b{
+    font-size: 1.5em;
+}
