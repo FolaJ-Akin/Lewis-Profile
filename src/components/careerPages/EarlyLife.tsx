@@ -1,6 +1,9 @@
+import NavBarCareer from "../../NavBarCareer";
+
 export default function EarlyLife(): JSX.Element {
   return (
     <div className="EarlyLife">
+      <NavBarCareer />
       <h1>Early Life</h1>
       <img
         src="https://www.formula1.com/content/fom-website/en/drivers/hall-of-fame/Lewis_Hamilton/_jcr_content/featureContent/manual_gallery/image1.img.1920.medium.jpg/1421322471645.jpg"
