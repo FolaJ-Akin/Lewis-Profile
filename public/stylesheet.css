@@ -56,11 +56,14 @@ h1 {
     margin-bottom: 1vh;
     color: lawngreen;
     font-size: 17rem;
-    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
 }
 
 small {
-    font-size: 1rem;
+    font-size: 3rem;
 }
 
 .middleSqaure {
@@ -96,6 +99,7 @@ small {
 .CareerCarousel {
     /* border: 5px solid gold; */
     height: 92%;
+    width: 100% !important;
     scroll-behavior: smooth;
     scroll-snap-type: y mandatory;
     overflow-y: scroll;
@@ -104,7 +108,6 @@ small {
 .EarlyLife {
     /* border: 5px solid pink; */
     height: 90%;
-    scroll-snap-align: start;
     overflow: scroll;
 }
 
@@ -118,7 +121,6 @@ small {
 .Karting {
     /* border: 5px solid purple; */
     height: 90%;
-    scroll-snap-align: start;
     overflow: hidden;
 }
 
@@ -132,14 +134,12 @@ small {
 .FRandF3 {
     border: 5px solid crimson;
     height: 90%;
-    scroll-snap-align: start;
     overflow: scroll;
 }
 
 .Formula1 {
     /* border: 5px solid grey; */
     height: 90%;
-    scroll-snap-align: start;
 }
 
 .CarouselF1 {
@@ -277,8 +277,49 @@ b {
     color: #fff;
 }
 
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {}
+/* Medium devices (landscape tablets, 768px and down) */
+@media only screen and (max-width: 768px) {
+    b{
+        font-size: 1em !important;
+    }
+    h4{
+        font-size: 1em !important;
+        margin-left: 1rem;
+    }
+    .driverTile{
+        width: 91vw;
+        height: 7vh;
+    }
+    .leftTrape {
+        display: none;
+    }
+
+    small {
+        display: none;
+    }
+
+    .rightTrape {
+        display: none;
+    }
+    #Link{
+        font-size: 1.8rem;
+        margin: 0.3rem;
+    }
+    #LPh1{
+        font-size: 5em;
+    }
+    #imgX44{
+        height: 40vh;
+        width: 100vw;
+        margin-left: 0;
+    }
+    #imgEL{
+        display: none;
+    }
+    #Kart{
+        display: none;
+    }
+}
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 768px) and (max-width: 1600px) {
@@ -292,18 +333,12 @@ b {
         overflow: scroll;
     }
 
-    /* .leftTrape {
-        font-size: 26rem;
-    } */
-
-    /* small {
-        font-size: 2rem;
-    } */
-
-    /* .rightTrape {
-        font-size: 4rem;
-    } */
-
+    b{
+        font-size: 1em !important;
+    }
+    h4{
+        font-size: 1em !important;
+    }
     .CareerCarousel {
         height: 89%;
     }
@@ -327,7 +362,7 @@ b {
     }
 
     small {
-        font-size: 2rem;
+        font-size: 4.5rem;
     }
 
     .rightTrape {
@@ -335,32 +370,8 @@ b {
     }
 }
 
-.f1Standings{
-    /* border: 5px solid red; */
-    justify-items: center;
-    height: 90vh;
-    overflow: scroll;
-}
-.driverTile{
-    border: 5px solid green;
-    background-color: rgb(53, 151, 53,0.4);
-    color: #fff;
-    display: flex;
-    justify-content: space-around;
-    height: 5vh;
-    padding-top: 20px;
-    width: 80vw;
-    margin: 7px auto;
-}
 
-h4{
-    /* color: #fff; */
-    margin: 0;
-    padding: 0;
-    font-size: 1.5em;
-}
 
-b{
-    font-size: 1.5em;
-}
+
+
 

@@ -15,11 +15,11 @@ export default function App(): JSX.Element {
       <div className="App">
         <Routes>
           <Route path="/" element={<LandingPage />} />
-          <Route path="/Career/EarlyLife" element={<EarlyLife />} />
-          {/* <Route path="/Career" element={<Career />} /> */}
-          <Route path="/Career/Karting" element={<Karting />} />
-          <Route path="/Career/FRandF3" element={<FRandF3 />} />
-          <Route path="/Career/Formula1" element={<Formula1 />} />
+          <Route path="/EarlyLife" element={<EarlyLife />} />
+          {/* <Route path="" element={<Career />} /> */}
+          <Route path="/Karting" element={<Karting />} />
+          <Route path="/FRandF3" element={<FRandF3 />} />
+          <Route path="/Formula1" element={<Formula1 />} />
           <Route path="/X44" element={<X44 />} />
           <Route path="/Standings" element={<F1Standings />} />
         </Routes>

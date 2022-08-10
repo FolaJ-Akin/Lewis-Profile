@@ -15,7 +15,7 @@ export default function LandingPage(): JSX.Element {
           103 Pole Positions
           <br />
           <br />
-          188 Podium finishes
+          188 Podium Finishes
         </div>
       </div>
     </div>
