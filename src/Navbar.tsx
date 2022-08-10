@@ -9,7 +9,6 @@ export default function Navbar(): JSX.Element {
       <Link to="/EarlyLife" id="Link">
         Career
       </Link>
-      {/* <> #add space evenly# </> */}
       <Link to="/X44" id="Link">
         X44
       </Link>

@@ -9,7 +9,6 @@ export default function NavBarCareer(): JSX.Element {
       <Link to="/EarlyLife" id="tab">
         Early Life
       </Link>
-      {/* <> #add space evenly# </> */}
       <Link to="/Karting" id="tab">
         Karting
       </Link>
