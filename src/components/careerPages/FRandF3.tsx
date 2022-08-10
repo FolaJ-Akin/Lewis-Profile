@@ -1,6 +1,9 @@
+import NavBarCareer from "../../NavBarCareer";
+
 export default function FRandF3() {
   return (
     <div className="FRandF3">
+      <NavBarCareer />
       <h1>Formula Renault and Formula Three</h1>
       <section>
         Hamilton began his car racing career in the 2001 British Formula Renault

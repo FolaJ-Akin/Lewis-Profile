@@ -116,17 +116,19 @@ small {
 }
 
 .Karting {
-    border: 5px solid purple;
+    /* border: 5px solid purple; */
     height: 90%;
     scroll-snap-align: start;
     overflow: hidden;
 }
-#Kart{
+
+#Kart {
     margin-left: 20%;
     height: 40vh;
     margin-top: 3vh;
     border-radius: 5px;
 }
+
 .FRandF3 {
     border: 5px solid crimson;
     height: 90%;
@@ -144,8 +146,8 @@ small {
     /* border: 5px dashed black; */
     height: 87%;
     width: 100%;
-    display: flex;
-    flex-direction: row;
+    /* display: flex; */
+    /* flex-direction: row; */
     /* scroll-behavior: smooth;
     scroll-snap-type: x mandatory;
     overflow-x: scroll; */
@@ -165,11 +167,12 @@ h2 {
 
 .Mercedes {
     border: 5px dashed orange;
-    border-left: none;
+    border-top: none;
     width: 100%;
     overflow-y: scroll;
     scroll-behavior: smooth;
     padding: 3px;
+    margin-bottom: 10vh;
 }
 
 h3 {
@@ -187,6 +190,7 @@ h3 {
     width: 55vw;
     height: 65vh;
     margin-left: 20vw;
+    border-radius: 5px;
 }
 
 section {
@@ -230,36 +234,83 @@ section {
     border-radius: 50px;
 }
 
+
+.f1Standings {
+    /* border: 5px solid red; */
+    justify-items: center;
+    height: 90vh;
+    overflow: scroll;
+}
+
+.driverTile {
+    border: 5px solid green;
+    background-color: rgb(53, 151, 53, 0.4);
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+    height: 5vh;
+    padding-top: 20px;
+    width: 80vw;
+    margin: 7px auto;
+}
+
+h4 {
+    /* color: #fff; */
+    margin: 0;
+    padding: 0;
+    font-size: 1.5em;
+}
+
+b {
+    font-size: 1.5em;
+}
+
+.NavBarCareer {
+    border: 5px solid red;
+    width: fit-content;
+    padding: 5px;
+}
+#tab{
+    /* border: 5px solid orange; */
+    margin: 7px 7px;
+    background-color: purple;
+    color: #fff;
+}
+
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {}
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 768px) and (max-width: 1600px) {
-    #Kart{
+    #Kart {
         height: 60vh;
         width: 85vh;
         margin-left: 32%;
     }
-    .Karting{
+
+    .Karting {
         overflow: scroll;
     }
-    .leftTrape {
-        /* font-size: 26rem; */
+
+    /* .leftTrape {
+        font-size: 26rem;
+    } */
+
+    /* small {
+        font-size: 2rem;
+    } */
+
+    /* .rightTrape {
+        font-size: 4rem;
+    } */
+
+    .CareerCarousel {
+        height: 89%;
     }
 
-    small {
-        /* font-size: 2rem; */
-    }
-
-    .rightTrape {
-        /* font-size: 4rem; */
-    }
-    .CareerCarousel{
-        height:89%;
-    }
-    .X44Page{
-        height:97vh;
-        overflow:scroll;
+    .X44Page {
+        height: 97vh;
+        overflow: scroll;
     }
     #LPh1{
         font-size:4em;
@@ -283,7 +334,6 @@ section {
         font-size: 4rem;
     }
 }
-
 
 .f1Standings{
     /* border: 5px solid red; */
@@ -313,3 +363,4 @@ h4{
 b{
     font-size: 1.5em;
 }
+

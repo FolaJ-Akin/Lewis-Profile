@@ -12,7 +12,7 @@ export default function F1Standings(): JSX.Element {
   useEffect(() => {
     axios
       .get(
-        "http://ergast.com/api/f1/current/driverStandings.json?callback=myParser"
+        "https://ergast.com/api/f1/current/driverStandings.json?callback=myParser"
       )
       .then((response) => {
         const lastIndex = response.data.length;

@@ -1,6 +1,9 @@
+import NavBarCareer from "../../NavBarCareer";
+
 export default function Formula1() {
   return (
     <div className="Formula1">
+      <NavBarCareer />
       <h1> Formula 1</h1>
       <div className="CarouselF1">
         <div className="Mclaren">

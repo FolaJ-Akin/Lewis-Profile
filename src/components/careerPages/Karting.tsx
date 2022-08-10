@@ -1,6 +1,9 @@
+import NavBarCareer from "../../NavBarCareer";
+
 export default function Karting() {
   return (
     <div className="Karting">
+      <NavBarCareer />
       <h1>Karting</h1>
       <section>
         Hamilton began karting in 1993 and quickly began winning races and cadet
